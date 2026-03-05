@@ -27,8 +27,11 @@ const Hero = () => {
         </button>
       </div>
 
-      <div className="absolute bottom-8 w-full flex justify-center animate-bounce">
-        <div className="w-2px h-10 bg-red-600"></div>
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center">
+        <span className="text-red-600 text-xs uppercase tracking-[0.2em] mb-2 font-bold animate-pulse">
+          Scrollen
+        </span>
+        <div className="w-3px h-12 bg-linear-to-b from-red-600 to-transparent"></div>
       </div>
     </section>
   );
