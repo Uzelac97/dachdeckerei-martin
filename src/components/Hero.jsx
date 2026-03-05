@@ -20,7 +20,7 @@ const Hero = () => {
         </p>
         <p className="text-gray-200 text-sm md:text-lg max-w-xs md:max-w-xl mt-4 mx-auto leading-relaxed">
           Traditionelle Handwerkskunst trifft moderne Technik. <br />
-          Ihr Dach u našim rukama.
+          Ihr Dach in unseren Händen
         </p>
         <button className="mt-10 bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-10 rounded-sm transition-all duration-300 active:scale-95 shadow-2xl uppercase text-sm tracking-widest">
           Kontakt Aufnehmen
@@ -28,7 +28,7 @@ const Hero = () => {
       </div>
 
       <div className="absolute bottom-8 w-full flex justify-center animate-bounce">
-        <div className="w-[2px] h-10 bg-red-600"></div>
+        <div className="w-2px h-10 bg-red-600"></div>
       </div>
     </section>
   );
